@@ -1,0 +1,28 @@
+@page { size: A4; margin: 13mm 15mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; color: #222c37; background: white; font: 11pt/1.4 Arial, Helvetica, sans-serif; }
+.resume { width: 180mm; }
+header { padding-bottom: 9px; border-bottom: 2px solid #1e5260; }
+h1 { margin: 0; color: #152c39; font-size: 22pt; line-height: 1.12; letter-spacing: -.45px; }
+.professional-title { margin: 5px 0 7px; font-size: 12pt; font-weight: 700; color: #1e5260; }
+.contacts, .profiles { margin: 3px 0 0; font-size: 9.5pt; line-height: 1.35; }
+a { color: inherit; text-decoration: none; }
+.separator { color: #81949c; padding: 0 4px; }
+section { margin-top: 15px; }
+h2 { margin: 0 0 7px; padding-bottom: 4px; border-bottom: 1px solid #c1d1d5; color: #1e5260; font-size: 10.5pt; line-height: 1.25; letter-spacing: 1.1px; text-transform: uppercase; break-after: avoid; }
+p { margin: 0; }
+.summary { line-height: 1.4; }
+.skill-row { margin: 2px 0; }
+strong { font-weight: 700; }
+.job { margin-top: 12px; }
+.job:first-of-type { margin-top: 0; }
+h3 { margin: 0; font-size: 11.2pt; line-height: 1.3; color: #182b37; }
+.dates { white-space: nowrap; font-weight: 400; font-size: 10pt; color: #435764; }
+.company { margin: 2px 0 5px; font-weight: 700; font-size: 10.5pt; color: #3f5660; }
+ul { margin: 0; padding-left: 16px; }
+li { margin: 3px 0; padding-left: 1px; break-inside: avoid; }
+h3, .company { break-after: avoid; }
+.education { break-inside: avoid; }
+.education p { margin: 1px 0; }
+.education-years { color: #435764; font-size: 10pt; }

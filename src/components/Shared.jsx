@@ -26,8 +26,9 @@ export function ExternalLink({ href, children, className = '', ...props }) {
 
 export function ResumeButton({ compact = false }) {
   const file = resumeData.personal.resumeFile;
+  const downloadName = `${resumeData.personal.name.replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '')}-Resume.pdf`;
   return hasValue(file)
-    ? <a className={`button ${compact ? 'button-small' : 'button-outline'}`} href={assetUrl(file)} download><Download size={16} />{compact ? 'Resume' : 'Download Resume'}</a>
+    ? <a className={`button ${compact ? 'button-small' : 'button-outline'}`} href={assetUrl(file)} download={downloadName}><Download size={16} />{compact ? 'Resume' : 'Download Resume'}</a>
     : <button className={`button ${compact ? 'button-small' : 'button-outline'}`} disabled title="Add public/resume.pdf and set personal.resumeFile to enable downloads"><Download size={16} />{compact ? 'Resume' : 'Resume coming soon'}</button>;
 }
 

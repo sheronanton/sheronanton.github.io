@@ -20,6 +20,7 @@ export const resumeData = {
   },
   introduction: 'My core stack is Java, Spring Boot, and React. I also work with SQL, Oracle, and PostgreSQL on reporting, database migration, and application maintenance.',
   summary: 'I’m a Senior Software Engineer at BCT Consulting Private Limited, working on full-stack development, database migration, and SQL queries. My core stack is Java, Spring Boot, and React, with experience in SQL-based reporting and application maintenance. My work at MACCS Innovations includes developing and optimizing SQL queries and stored procedures for daily reporting across millions of records, and migrating a database from Oracle to PostgreSQL. My experience also includes mentoring junior team members through code reviews, technical guidance, and onboarding, as well as requirements analysis, bug fixes, refactoring, and feature enhancements.',
+  resumeSummary: 'Senior Software Engineer focused on full-stack development with Java, Spring Boot, and React. Experience generating 30+ daily reports across millions of records, migrating an Oracle database to PostgreSQL, and mentoring 3 junior team members. Current work includes application features, database migration, SQL optimization, and code refactoring at BCT Consulting Private Limited.',
   featuredStack: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
   skills: {
     languages: ['Java', 'SQL'],
@@ -42,6 +43,12 @@ export const resumeData = {
         'Investigate application defects, fix bugs, and refactor code to support maintainability.',
         'Validate application changes and migrated data for functional correctness and data consistency.',
       ],
+      resumeDescription: [
+        'Develop full-stack application features with Java, Spring Boot, and React, translating requirements into backend and frontend enhancements.',
+        'Support database migration through schema updates, data transfer, and validation of migrated data for functional correctness and consistency.',
+        'Write and optimize SQL queries for application data access and performance.',
+        'Investigate application defects, fix bugs, and refactor code to improve maintainability.',
+      ],
       technologies: ['Java', 'Spring Boot', 'React', 'SQL'],
     },
     {
@@ -53,12 +60,19 @@ export const resumeData = {
         'Migrated a database from Oracle to PostgreSQL, handling schema conversion, performance tuning, data migration, and system validation with minimal downtime.',
         'Contributed to requirements analysis, bug fixes, code refactoring, and feature enhancements to improve application stability and performance.',
       ],
+      resumeDescription: [
+        'Developed and optimized SQL queries and stored procedures to generate 30+ daily reports across millions of records.',
+        'Migrated an Oracle database to PostgreSQL, covering schema conversion, data migration, performance tuning, and system validation with minimal downtime.',
+        'Mentored 3 junior team members through code reviews, technical guidance, and onboarding.',
+        'Supported requirements analysis, bug fixes, refactoring, and feature enhancements to improve application stability and performance.',
+      ],
       technologies: ['Java', 'SQL', 'Oracle', 'PostgreSQL', 'Stored procedures'],
     },
     {
       company: 'Shalom Happy Home Constructions', role: 'Software Maintenance',
       location: '', startDate: '03 May 2018', endDate: '20 Dec 2020',
       description: ['Maintained the website and software.', 'Provided updates required by the application.'],
+      resumeDescription: ['Maintained and updated the company website and software to support application requirements.'],
       technologies: ['HTML', 'CSS', 'JavaScript'], // The CV does not name technologies for this role.
     },
   ],
